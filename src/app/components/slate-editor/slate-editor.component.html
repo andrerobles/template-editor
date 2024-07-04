@@ -1,0 +1,8 @@
+<div class="editor-container">
+  <slate-editable
+    [editor]="editor"
+    [(ngModel)]="value"
+    (ngModelChange)="onChange($event)"
+  />
+  <div class="line-count">Número de linhas: {{ lineCount }}</div>
+</div>

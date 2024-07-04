@@ -19,7 +19,9 @@
     "@angular/platform-browser-dynamic": "^16.2.0",
     "@angular/router": "^16.2.0",
     "rxjs": "~7.8.0",
-    "slate-angular": "^16.1.0-next",
+    "slate": "~0.101.5",
+    "slate-history": "~0.100.0",
+    "slate-angular": "~16.1.0-next.8",
     "tslib": "^2.3.0",
     "zone.js": "~0.13.0"
   },

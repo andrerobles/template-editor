@@ -3,6 +3,7 @@
     [editor]="editor"
     [(ngModel)]="value"
     (ngModelChange)="onChange($event)"
-  />
+    [renderElement]="renderElement"
+  ></slate-editable>
   <div class="line-count">Número de linhas: {{ lineCount }}</div>
 </div>
